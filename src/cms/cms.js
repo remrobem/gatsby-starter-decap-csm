@@ -1,4 +1,4 @@
-import CMS from 'decap-cms';
+import CMS from 'decap-cms=app';
 // import CMS from 'netlify-cms-app';
 // import uploadcare from 'netlify-cms-media-library-uploadcare'
 // import cloudinary from 'netlify-cms-media-library-cloudinary'
@@ -8,6 +8,7 @@ import BlogPostPreview from './preview-templates/BlogPostPreview';
 import ProductPagePreview from './preview-templates/ProductPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
 
+CMS.init();
 // CMS.registerMediaLibrary(uploadcare)
 // CMS.registerMediaLibrary(cloudinary)
 
